@@ -1,6 +1,36 @@
 /*  your css code here. If applicable */
-#buttons{
-	height:50%;
-	width:50%;
-	background-color:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
+
+#buttons{
+	height:200px;
+	width:100%;
+	background-color:#A164DF;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+	background-color:#663399;
+	color:white;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.stop{
+	background-color:#663399;
+	color:white;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
